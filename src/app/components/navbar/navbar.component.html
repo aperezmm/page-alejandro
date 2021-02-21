@@ -1,0 +1,22 @@
+<!-- USING BOOTSTRAP 3.0.3 -->
+<nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark mx-auto">
+        <div class="navbar-brand text mx-auto" id="texto" routerLink="/"> 
+          <h4><strong id="tag"> < / > </strong> Alejandro Pérez</h4>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" type="button" routerLinkActive="active">
+              <a class="nav-link" type="button" (click)="toAbout()">Acerca de mí</a>
+            </li>
+            <li class="nav-item" type="button" routerLinkActive="active">
+              <a class="nav-link" type="button" (click)="toProjects()">Proyectos</a>
+            </li>            
+            <li class="nav-item" type="button" routerLinkActive="active">
+              <a class="nav-link" type="button" (click)="toContact()">Contacto</a>
+            </li>
+          </ul>
+        </div>
+ </nav>

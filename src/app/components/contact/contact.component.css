@@ -1,0 +1,24 @@
+.boton-wpp{
+    background: rgb(107, 189, 91);
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    display: inline-flex;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    box-shadow: 0 6px 10px rgba(91, 189, 112, 0.35);
+    margin-left: 5px;
+}
+
+.boton-wpp:hover{
+    background: rgb(183, 230, 183);
+    transform: scale(0.8);
+    transition: background 3s, transform 3s;
+}
+
+#profile{
+    font-family: 'Montserrat', sans-serif;
+}

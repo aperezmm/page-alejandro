@@ -1,0 +1,45 @@
+.navbar{
+    padding: 1px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#texto {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 20px;
+    font: 16px;
+}
+
+#tag{
+    color: rgb(189, 91, 91);
+    letter-spacing: -0.09em; 
+}
+
+#routes{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.09em;
+}
+
+ul li{
+    font-family: 'Montserrat', sans-serif;
+}
+ul li:hover {
+    border-radius: 40%;
+    color: darkred;
+    transform: scale(0.5);
+    transition: 2s;
+
+}
+
+.nav-item{
+    text-align: right;
+}
+
+
+
+
+
+

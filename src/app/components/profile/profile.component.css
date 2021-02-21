@@ -1,0 +1,39 @@
+#profile{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    color: darkgrey;
+}
+
+h6{
+    font-size: 18px;
+}
+
+#spanh6{
+    color: rgb(189, 91, 91);
+}
+
+.boton{
+    background: rgb(189, 91, 91);
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    display: inline-flex;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    box-shadow: 0 6px 10px rgb(189, 91, 91, 35%);
+    box-sizing: border-box;
+}
+
+.boton:hover{
+    background: rgb(230, 183, 183);
+    transform: scale(0.8);
+    transition: background 3s, transform 3s;
+}
+
+
