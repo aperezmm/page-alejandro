@@ -1,3 +1,45 @@
 #profile{
     font-family: 'Montserrat', sans-serif;
 }
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 10px;  
+    width: 90%;
+    box-sizing: border-box;
+}
+
+span{
+    color: rgb(189, 91, 91);
+}
+
+
+.boton{
+    background: rgb(189, 91, 91);
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    display: inline-flex;
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 6px 10px rgb(209, 145, 145);
+    box-sizing: border-box;
+}
+
+.boton:hover{
+    background: rgb(255, 155, 155);
+    color: black;
+    transform: scale(0.8);
+    transition: background 3s, transform 3s;
+}
+
+#cursos{
+    transition: 10s;
+}

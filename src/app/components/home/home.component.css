@@ -4,7 +4,9 @@ section{
     background: darkgrey;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: small;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 6px 10px rgba(192, 192, 192, 0.808);
 }
 
 .profile-image{
@@ -13,11 +15,15 @@ section{
     bottom: 0px;
     left: 0px;
     margin-left: auto;
-    filter: drop-shadow(0 0 20px rgb(105, 105, 105));
 }
 
 img{
     width: 111%;
+}
+
+.home{
+    background: none;
+    box-shadow: none;
 }
 
 
